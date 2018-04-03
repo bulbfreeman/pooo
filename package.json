@@ -48,6 +48,11 @@
     "linux": {
       "icon": "static/icons"
     },
+    "mac": {
+      "icon": "static/icons",
+      "category": "public.app-category.games",
+      "target": "zip"
+    },
     "publish": [
       {
         "provider": "github",
