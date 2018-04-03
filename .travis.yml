@@ -9,7 +9,7 @@ cache:
   - $HOME/.yarn
 
 node_js:
-  - '0.8'
+  - '8.11'
 
 env:
     - TRAVIS_CI=TRAVIS_CI
