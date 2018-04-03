@@ -11,12 +11,8 @@ cache:
 node_js:
   - '0.8'
 
-install:
-  - brew install yarn
-  - yarn
-
 env:
     - TRAVIS_CI=TRAVIS_CI
 
 script:
-    - yarn run release
+    - npm run release
